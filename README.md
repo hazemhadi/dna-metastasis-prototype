@@ -13,6 +13,7 @@ The goal is to show:
 
 ## Project structure
 
+```bash
 dna-metastasis-bart-prototype/
 │── data/                 # synthetic DNA fragment generation scripts
 │── model/                # BART modification, custom layers, training code
