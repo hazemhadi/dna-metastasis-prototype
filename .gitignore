@@ -1,0 +1,26 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & results
+data/*.csv
+data/*.json
+data/*.jsonl
+results/*.pt
+results/*.bin
+results/logs/*
+!results/.gitkeep
+
+# OS
+.DS_Store
